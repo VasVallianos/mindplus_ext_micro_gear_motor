@@ -1,0 +1,30 @@
+<svg width="400" height="260" viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Gear Icon -->
+  <g transform="translate(200,70) scale(1.2)">
+    <circle r="40" fill="none" stroke="white" stroke-width="10"></circle>
+    <circle r="18" fill="white"></circle>
+    
+    <!-- Teeth -->
+    <g stroke="white" stroke-width="8">
+      <line x1="0" y1="-55" x2="0" y2="-75"></line>
+      <line x1="39" y1="-39" x2="55" y2="-55"></line>
+      <line x1="55" y1="0" x2="75" y2="0"></line>
+      <line x1="39" y1="39" x2="55" y2="55"></line>
+      <line x1="0" y1="55" x2="0" y2="75"></line>
+      <line x1="-39" y1="39" x2="-55" y2="55"></line>
+      <line x1="-55" y1="0" x2="-75" y2="0"></line>
+      <line x1="-39" y1="-39" x2="-55" y2="-55"></line>
+    </g>
+  </g>
+
+  <!-- Text -->
+  <text x="50%" y="170" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="bold" fill="white">
+    micro
+  </text>
+
+  <text x="50%" y="230" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="bold" letter-spacing="3" fill="white">
+    Gear
+  </text>
+
+</svg>

@@ -1,0 +1,5 @@
+{
+    "microG.microgmoveCW|block": "MicroGear στο pin [PIN] κινήσου δεξιόστροφα με ταχύτητα [SPEED]",
+    "microG.microgmoveCCW|block": "MicroGear στο pin [PIN] κινήσου αριστερόστροφα με ταχύτητα [SPEED]",
+    "microG.microgstop|block": "MicroGear στο pin [PIN] σταμάτα την κίνηση",
+}
