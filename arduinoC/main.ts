@@ -1,9 +1,18 @@
-\   
+\ 
+  
 enum DIGITAL_PORTS {
-    //% block="D9"
-    9, 
-    //% block="D10"
-    10
+    //% block="3"
+    3,
+    //% block="5"
+    5, 
+    //% block="6"
+    6,
+	//% block="9"
+    9,
+    //% block="10"
+    10,
+	//% block="11"
+    11
 }
 
 //% color="#AA278D" iconWidth=50 iconHeight=40
