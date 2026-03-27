@@ -74,7 +74,7 @@ namespace microG {
 			Generator.addSetup(`microG_${pin}`, `mymotor_${pin}.attach(${pin});`);
 			Generator.addCode(
 				`{ unsigned long starttime_${pin} = millis();\n` +
-				`  while (millis() - starttime_${pin} < (unsigned long)${sec} * 1000UL) {\n` +
+				`  while (millis() - starttime_${pin} < ${sec} * 1000UL) {\n` +
 				`    mymotor_${pin}.write(80 - (${speed}*80/100));\n` +
 				`  }\n` +
 				`  mymotor_${pin}.write(90); }`
@@ -84,7 +84,7 @@ namespace microG {
 
 	//% block="MicroGear στο pin [PIN] κινήσου αριστερόστροφα με ταχύτητα [SPEED] για [SEC] δευτερόλεπτα"
 	//% PIN.shadow="dropdown" PIN.options="DIGITAL_PORTS" PIN.defl="DIGITAL_PORTS.D9"
-	//% SPEED.shadow="range" SPEED.defl="50" SPEED.params.min="100" SPEED.params.max="100"
+	//% SPEED.shadow="range" SPEED.defl="50" SPEED.params.min="0" SPEED.params.max="100"
 	//% SEC.shadow="number" SEC.defl="1"
 	export function microgmoveCCWSEC(parameter: any, block: any) {
 		let speed = parameter.SPEED.code;
@@ -96,7 +96,7 @@ namespace microG {
 			Generator.addSetup(`microG_${pin}`, `mymotor_${pin}.attach(${pin});`);
 			Generator.addCode(
 				`{ unsigned long starttime_${pin} = millis();\n` +
-				`  while (millis() - starttime_${pin} < (unsigned long)${sec} * 1000UL) {\n` +
+				`  while (millis() - starttime_${pin} < ${sec} * 1000UL) {\n` +
 				`    mymotor_${pin}.write(100 + (${speed}*80/100));\n` +
 				`  }\n` +
 				`  mymotor_${pin}.write(90); }`
