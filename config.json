@@ -1,11 +1,11 @@
 {
 	"name": {
-		"en": "Gravity Micro Gear (v.0.2)",
-		"el": "Gravity Micro Gear (v.0.2)"
+		"en": "Gravity Micro Gear (v1.0.0)",
+		"el": "Gravity Micro Gear (v1.0.0)"
 	},
 	"description": {
-		"en": "Gravity Micro Gear (v.0.2)",
-		"el": "Gravity Micro Gear (v.0.2)"
+		"en": "Gravity Micro Gear (v1.0.0)",
+		"el": "Gravity Micro Gear (v1.0.0)"
 	},
 	"author": "wallia",
 	"email": "v.vallianos@gmail.com",
@@ -13,11 +13,11 @@
 	"isBoard": false,
 	"id": "microG",
 	"platform": ["win", "web"],
-	"version": "0.2",
+	"version": "v1.0.0",
 	"asset": {
 		"arduinoC": {
 			"dir": "arduinoC/",
-			"version": "0.2",
+			"version": "v1.0.0",
 			"board": ["arduino"],
 			"main": "main.ts"
 		}
