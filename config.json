@@ -13,11 +13,11 @@
 	"isBoard": false,
 	"id": "microG",
 	"platform": ["win", "web"],
-	"version": "v1.0.0",
+	"version": "1.0.0",
 	"asset": {
 		"arduinoC": {
 			"dir": "arduinoC/",
-			"version": "v1.0.0",
+			"version": "1.0.0",
 			"board": ["arduino"],
 			"main": "main.ts"
 		}
