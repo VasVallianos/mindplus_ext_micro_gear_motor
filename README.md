@@ -79,5 +79,13 @@ MicroGear   →   IO Shield V7.1
 
 ---
 
+## Εγκατάσταση
+
+Για να γίνει εγκατάσταση από URL στο Mind+:
+
+https://raw.githubusercontent.com/VasVallianos/mindplus_ext_micro_gear_motor/main/config.json
+
+---
+
 *Τεκμηρίωση βασισμένη στο επίσημο DFRobot wiki για DFR0399.*
 *Τελευταία ενημέρωση: Μάρτιος 2026*
